@@ -1,0 +1,271 @@
+*{
+    padding: 0px;margin: 0px;outline: none;
+    box-sizing: border-box;
+}
+body {
+    background-color: #f4f7fb;
+    color: #102040;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0; 
+}
+/* Header style */
+.header {
+    background-color: #3157c9;
+    color: white;
+    padding: 25px;
+ }
+.header h1 {
+    font-size: 36px; }
+    .header a {
+    color: white;
+    margin: 10px;
+    text-decoration: none; 
+}
+/* General section style */
+.section {
+    background-color: white;
+    padding: 30px;
+    margin: 15px;
+    border: 1px solid #d9e2f3;
+    border-radius: 12px; 
+}
+/* Hero section */
+.hero img {
+    width: 150px;
+    border-radius: 50%; 
+}
+.hero h2 {
+    font-size: 30px;
+    color: #102040;
+ }
+.hero h3 {
+    color: #3157c9;
+}
+
+.hero .social__meduia{
+    display: flex;align-items: center;justify-content: center;
+    column-gap: 22px;
+}
+.hero .social__meduia a.icon{
+    border: 1px solid #CBD5E1;
+    width: fit-content;height: fit-content;
+    padding: 12px 15px;border-radius: 4px;
+}
+.hero .social__meduia a.icon svg{
+    font-size: 18px;
+}
+.about__me{
+    width: auto;height: 400px;
+    padding: 25px;border: 1px solid #ccdaf5;
+    border-radius: 12px;margin: 15px;background-color: #ccf1db;
+}
+.about__me .content__section_about{
+    width: 100%;position: relative;
+}
+
+.about__me .content__section_about .title{
+    width: fit-content;height: fit-content;
+    margin: auto;text-align: center;
+    display: flex;align-items: center;
+    justify-content: start;column-gap: 30px;
+    margin-bottom: 50px;
+}
+.about__me .content__section_about .title h2{
+    font-size: 35px;font-weight: bold;
+    color: #09f366;position: relative;
+}
+.about__me .content__section_about .title svg{
+    font-size: 30px;color: #09f366;
+}
+.about__me .content__section_about .title h2::before{
+    content: "";
+    width: 50%;height: 3px;
+    background-color: #09f366;
+    position: absolute;bottom: -10px;left: 0px;
+}
+.about__me .content__section_about p#pFcontent{
+    max-width: 520px;height: fit-content;
+    font-size: 15px;color: black;line-height: 1.4;
+    margin: auto;margin-top: 12px;
+}
+.about__me .content__section_about .last{
+    width: calc(100% - 55%);height: fit-content;
+    display: flex;align-items: center;justify-content: start;
+    column-gap: 30px;background-color: #33f581;
+    margin: auto;margin-top: 45px;padding: 22px 30px;
+}
+
+/* start section skills */
+.skills{
+    width: auto;height: 400px;
+    padding: 25px;border: 1px solid #f78000c9;
+    border-radius: 12px;margin: 15px;background-color: #eca1507e;
+}
+.skills .content__section_skills{
+    width: 100%;position: relative;
+}
+.skills .content__section_skills .title{
+    width: fit-content;height: fit-content;
+    margin: auto;text-align: center;
+    display: flex;align-items: center;
+    justify-content: start;column-gap: 30px;
+    margin-bottom: 50px;
+}
+.skills .content__section_skills .title h2{
+    font-size: 35px;font-weight: bold;
+    color: #f77f00;position: relative;
+}
+.skills .content__section_skills .title svg{
+    font-size: 30px;color: #f77f00;
+}
+.skills .content__section_skills .title h2::before{
+    content: "";
+    width: 50%;height: 3px;
+    background-color: #f77f00;
+    position: absolute;bottom: -10px;left: 0px;
+}
+   
+.skills .content__section_skills  .skills__content{
+    display: flex;align-items: start;
+    justify-content: center;flex-direction: column;
+    max-width: calc(100% - 40%);
+    margin: auto;
+}
+.skills .content__section_skills .skills__content .skill{
+    display: flex;align-items: center;justify-content: space-around;
+    width: 100%;margin: 12px 0px;
+}
+.skills .content__section_skills .skills__content .skill h3{
+    font-size: 22px;font-weight: bold;color: black;
+}
+.skills .content__section_skills .skills__content .skill span.line{
+    width: calc(100% - 30%);height: 10px;display: block;
+    background-color: #f780005b;border-radius: 15px;position: relative;
+}
+.skills .content__section_skills .skills__content .skill span.line::before{
+    content: "";
+    position: absolute;top: 0px;left: 0px;
+    background: #f77f00;width: 95%;height: 10px;
+    border-radius:15px;
+
+}
+.skills .content__section_skills .skills__content .skill:nth-child(2) span.line::before{
+    width: 90%;
+}
+.skills .content__section_skills .skills__content .skill:nth-child(3) span.line::before{
+    width: 55%;
+}
+
+/* my project */
+.MY__PROJECT{
+    width: auto;height: 400px;
+    padding: 25px;border: 1px solid #734bcaab;
+    border-radius: 12px;margin: 15px;background-color: #734bca5e;
+}
+.MY__PROJECT .content__section_prject{
+    width: 100%;position: relative;
+}
+
+.MY__PROJECT .content__section_prject .title{
+    width: fit-content;height: fit-content;
+    margin: auto;text-align: center;
+    display: flex;align-items: center;
+    justify-content: start;column-gap: 30px;
+    margin-bottom: 50px;
+}
+.MY__PROJECT .content__section_prject .title h2{
+    font-size: 35px;font-weight: bold;
+    color: #734bca;position: relative;
+}
+.MY__PROJECT .content__section_prject .title h2::before{
+    content: "";
+    width: 50%;height: 3px;
+    background-color: #734bca;
+    position: absolute;bottom: -10px;left: 0px;
+}
+.MY__PROJECT .content__section_prject .title svg{
+    font-size: 30px;color: #734bca;
+}
+.MY__PROJECT .content__section_prject .project{
+    width: 100%;display: flex;max-width: 550px;
+    height: fit-content;padding: 12px 20px;border: 1px solid #3157c9;
+    border-radius: 5px;
+    align-items: center;justify-content: start;
+    margin: auto;background-color:white;column-gap: 32px;
+    margin: 12px auto;
+}
+.MY__PROJECT .content__section_prject .project .icon{
+    min-width: 50px;height: 50px;border-radius: 12px;
+    background-color:#734bca5e;display: flex;align-items: center;
+    justify-content: center;
+}
+.MY__PROJECT .content__section_prject .project .icon svg{
+    color: #734bca;
+}
+.MY__PROJECT .content__section_prject .project .content{
+    text-align: left;
+}
+
+
+/* start section contact us */
+.contact__us{
+    width: auto;height: fit-content;padding: 100px;
+    padding: 25px;border: 1px solid #b6244e;
+    border-radius: 12px;margin: 15px;background-color: #b6244d6e;
+}
+.contact__us .content__section_contact{
+    width: 100%;position: relative;
+}
+.contact__us .content__section_contact .title{
+    width: fit-content;height: fit-content;
+    margin: auto;text-align: center;
+    display: flex;align-items: center;
+    justify-content: start;column-gap: 30px;
+    margin-bottom: 50px;
+}
+.contact__us .content__section_contact .title h2{
+     font-size: 35px;font-weight: bold;
+    color: #b6244e;position: relative;
+}
+.contact__us .content__section_contact .title h2::before{
+    content: "";
+    width: 50%;height: 3px;
+    background-color: #b6244e;
+    position: absolute;bottom: -10px;left: 0px;
+}
+.contact__us .content__section_contact .title svg{
+    font-size: 30px;color: #b6244e;
+}
+.contact__us .content__section_contact form.content__contact{
+    max-width: calc(100% - 20%);
+    margin: auto;
+}
+/* .contact__us .content__section_contact form.content__contact .input{width: 100%;} */
+.contact__us .content__section_contact form.content__contact .input.first-input{
+    display: flex;align-items: center;justify-content: space-between;
+}
+.contact__us .content__section_contact form.content__contact input{
+    margin: 12px 0px;
+}
+.contact__us .content__section_contact form.content__contact .input.first-input input{
+    min-width: 49%;
+}
+.contact__us .content__section_contact form.content__contact  input{
+    min-width: 100%;border-radius: 5px;
+    height: 38px;border: 1px solid #b6244e;
+    padding: 0px 12px;
+}
+.contact__us .content__section_contact form.content__contact  textarea{
+    min-width: 100%;border-radius: 5px;
+    height: 150px;border: 1px solid #b6244e;
+    padding: 5px 12px;
+}
+.contact__us .content__section_contact form.content__contact  button{
+    width: fit-content;height: fit-content;
+    background-color: #b6244e;color: white;
+    border-radius: 8px;padding: 10px 30px;font-size: 15px;
+    font-weight: bold;text-transform: lowercase;box-sizing: border-box;
+    border: 0px;display: flex;align-items: center;justify-content: center;
+    margin: auto;margin-top: 20px;
+}
